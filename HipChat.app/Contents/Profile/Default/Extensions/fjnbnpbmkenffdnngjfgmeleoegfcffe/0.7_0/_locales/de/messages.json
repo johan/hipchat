@@ -1,0 +1,160 @@
+{
+   "addStyleLabel": {
+      "message": "Neuen Stil erstellen"
+   },
+   "addStyleTitle": {
+      "message": "Neuer Stil"
+   },
+   "appliesAdd": {
+      "message": "Hinzuf\u00FCgen"
+   },
+   "appliesDisplay": {
+      "message": "Wird angewendet auf: $applies$",
+      "placeholders": {
+         "applies": {
+            "content": "$1"
+         }
+      }
+   },
+   "appliesDisplayTruncatedSuffix": {
+      "message": "und mehr"
+   },
+   "appliesDomainOption": {
+      "message": "URLs auf der Dom\u00E4ne"
+   },
+   "appliesHelp": {
+      "message": "Nutzen Sie \"Anwenden auf\" um festzulegen, auf welche URLs der Code in diesem Abschnitt angewendet wird."
+   },
+   "appliesLabel": {
+      "message": "Anwenden auf"
+   },
+   "appliesRemove": {
+      "message": "Entfernen"
+   },
+   "appliesSpecify": {
+      "message": "Genauer..."
+   },
+   "appliesToEverything": {
+      "message": "Alles"
+   },
+   "appliesUrlOption": {
+      "message": "URL"
+   },
+   "appliesUrlPrefixOption": {
+      "message": "URLs beginnend mit"
+   },
+   "checkAllUpdates": {
+      "message": "F\u00FCr alle nach Updates suchen"
+   },
+   "checkForUpdate": {
+      "message": "Nach Update suchen"
+   },
+   "checkingForUpdate": {
+      "message": "Suche..."
+   },
+   "deleteStyleConfirm": {
+      "message": "M\u00F6chten Sie diesen Stil wirklich entfernen?"
+   },
+   "deleteStyleLabel": {
+      "message": "Entfernen"
+   },
+   "description": {
+      "message": "Anpassen des Aussehens von Websites sowie der Programmoberfl\u00E4che mit Hilfe eigener CSS-Stile."
+   },
+   "disableStyleLabel": {
+      "message": "Deaktivieren"
+   },
+   "editStyleHeading": {
+      "message": "Stil bearbeiten"
+   },
+   "editStyleLabel": {
+      "message": "Bearbeiten"
+   },
+   "editStyleTitle": {
+      "message": "\"$stylename$\" bearbeiten",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "enableStyleLabel": {
+      "message": "Aktivieren"
+   },
+   "findStylesForSite": {
+      "message": "Stile f\u00FCr diese Seite suchen"
+   },
+   "helpAlt": {
+      "message": "Hilfe"
+   },
+   "installUpdate": {
+      "message": "Update installieren"
+   },
+   "manageHeading": {
+      "message": "Installierte Stile"
+   },
+   "manageText": {
+      "message": "Fertige Stile finden Sie auf \u003Ca href='http://userstyles.org'\u003Euserstyles.org\u003C/a\u003E. Wenn Sie Hilfe brauchen, fragen Sie \u003Ca href='http://userstyles.org'\u003Eim Forum\u003C/a\u003E nach."
+   },
+   "manageTitle": {
+      "message": "Stylish"
+   },
+   "noStylesForSite": {
+      "message": "F\u00FCr diese Seite wurden keine Stile installiert."
+   },
+   "sectionAdd": {
+      "message": "Neuen Abschnitt hinzuf\u00FCgen"
+   },
+   "sectionHelp": {
+      "message": "Abschnitte unterteilen den Code eines Stils in verschiedene Teile, die auf verschiedene URLs angewendet werden. So k\u00F6nnte z.B. ein Stil die Startseite einer Website anders gestalten als den Rest der Website."
+   },
+   "sectionRemove": {
+      "message": "Abschnitt l\u00F6schen"
+   },
+   "styleCancelEditLabel": {
+      "message": "Zur\u00FCck zur \u00DCbersicht"
+   },
+   "styleChangesNotSaved": {
+      "message": "Sie haben \u00C4nderungen an diesem Stil noch nicht gespeichert."
+   },
+   "styleEnabledLabel": {
+      "message": "Aktiviert"
+   },
+   "styleInstall": {
+      "message": "M\u00F6chten Sie \"$stylename$\" mit Stylish installieren?",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMissingName": {
+      "message": "Geben Sie einen Namen ein."
+   },
+   "styleNameLabel": {
+      "message": "Name"
+   },
+   "styleSaveLabel": {
+      "message": "Speichern"
+   },
+   "styleSectionsTitle": {
+      "message": "Abschnitte"
+   },
+   "updateCheckFailBadResponseCode": {
+      "message": "Update gescheitert - Server meldet Code $code$.",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "updateCheckFailServerUnreachable": {
+      "message": "Update gescheitert - Server nicht erreichbar."
+   },
+   "updateCheckSucceededNoUpdate": {
+      "message": "Stil ist aktuell."
+   },
+   "updateCompleted": {
+      "message": "Update fertiggestellt."
+   }
+}

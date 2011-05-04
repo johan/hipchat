@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "include_globs": [  ],
+      "js": [ "script.js" ],
+      "matches": [ "https://www.hipchat.com/chat" ]
+   } ],
+   "converted_from_user_script": true,
+   "description": "",
+   "key": "2IOeYOMqtppkfD6mnAO7MgUY0DidsI5TyBy2DEAtdzI=",
+   "name": "hipchat.user.js",
+   "version": "1.0"
+}

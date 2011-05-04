@@ -1,0 +1,160 @@
+{
+   "addStyleLabel": {
+      "message": "A\u00F1adir estilo"
+   },
+   "addStyleTitle": {
+      "message": "A\u00F1adir Estilo"
+   },
+   "appliesAdd": {
+      "message": "A\u00F1adir"
+   },
+   "appliesDisplay": {
+      "message": "Aplica para: $applies$",
+      "placeholders": {
+         "applies": {
+            "content": "$1"
+         }
+      }
+   },
+   "appliesDisplayTruncatedSuffix": {
+      "message": "y m\u00E1s"
+   },
+   "appliesDomainOption": {
+      "message": "URL en el dominio"
+   },
+   "appliesHelp": {
+      "message": "Use los controles de \"Aplicar a\" para limitar a cuales URL aplica el c\u00F3digo en esta secci\u00F3n."
+   },
+   "appliesLabel": {
+      "message": "Aplica a"
+   },
+   "appliesRemove": {
+      "message": "Eliminar"
+   },
+   "appliesSpecify": {
+      "message": "Especificar"
+   },
+   "appliesToEverything": {
+      "message": "Todo"
+   },
+   "appliesUrlOption": {
+      "message": "URL"
+   },
+   "appliesUrlPrefixOption": {
+      "message": "URL comenzando con"
+   },
+   "checkAllUpdates": {
+      "message": "Revisar actualizaciones para todos"
+   },
+   "checkForUpdate": {
+      "message": "Revisar actualizaciones"
+   },
+   "checkingForUpdate": {
+      "message": "Verificando..."
+   },
+   "deleteStyleConfirm": {
+      "message": "\u00BFEst\u00E1s seguro de que quieres eliminar este estilo?"
+   },
+   "deleteStyleLabel": {
+      "message": "Borrar"
+   },
+   "description": {
+      "message": "Estilizar nuevamente la web con Stylish, un manejador de estilos de usuario."
+   },
+   "disableStyleLabel": {
+      "message": "Desactivar"
+   },
+   "editStyleHeading": {
+      "message": "Editar Estilo"
+   },
+   "editStyleLabel": {
+      "message": "Editar"
+   },
+   "editStyleTitle": {
+      "message": "Editar Estilo $stylename$",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "enableStyleLabel": {
+      "message": "Activar"
+   },
+   "findStylesForSite": {
+      "message": "Encontrar m\u00E1s estilos para este sitio."
+   },
+   "helpAlt": {
+      "message": "Ayuda"
+   },
+   "installUpdate": {
+      "message": "Instalar actualizaci\u00F3n"
+   },
+   "manageHeading": {
+      "message": "Estilos Instalados"
+   },
+   "manageText": {
+      "message": "Visita \u003Ca href='http://userstyles.org'\u003Euserstyles.org\u003C/a\u003E para estilos ya listos. Pregunta en \u003Ca href='http://userstyles.org'\u003Eel foro\u003C/a\u003E si necesitas ayuda."
+   },
+   "manageTitle": {
+      "message": "Stylish"
+   },
+   "noStylesForSite": {
+      "message": "No hay estilos instalados para este sitio."
+   },
+   "sectionAdd": {
+      "message": "A\u00F1adir otra secci\u00F3n"
+   },
+   "sectionHelp": {
+      "message": "Las secciones te permiten definir diferentes trozos de c\u00F3digo a ser aplicados a diferentes juegos de URL en el mismo estilo. Por ejemplo, un estilo particular puede cambiar la p\u00E1gina de inicio de un sitio de una forma, mientras cambia el resto del sitio de otra."
+   },
+   "sectionRemove": {
+      "message": "Eliminar secci\u00F3n"
+   },
+   "styleCancelEditLabel": {
+      "message": "Atr\u00E1s para manejar"
+   },
+   "styleChangesNotSaved": {
+      "message": "Has realizado cambios a este estilo sin guardar."
+   },
+   "styleEnabledLabel": {
+      "message": "Activado"
+   },
+   "styleInstall": {
+      "message": "\u00BFInstalar \"$stylename$\" en Stylish?",
+      "placeholders": {
+         "stylename": {
+            "content": "$1"
+         }
+      }
+   },
+   "styleMissingName": {
+      "message": "Ingrese un nombre."
+   },
+   "styleNameLabel": {
+      "message": "Nombre"
+   },
+   "styleSaveLabel": {
+      "message": "Guardar"
+   },
+   "styleSectionsTitle": {
+      "message": "Secciones"
+   },
+   "updateCheckFailBadResponseCode": {
+      "message": "Actualizaci\u00F3n fallida - el servidor respondi\u00F3 con el c\u00F3digo $code$.",
+      "placeholders": {
+         "code": {
+            "content": "$1"
+         }
+      }
+   },
+   "updateCheckFailServerUnreachable": {
+      "message": "Actualizaci\u00F3n fallida - no se encuentra el servidor."
+   },
+   "updateCheckSucceededNoUpdate": {
+      "message": "El estilo se actualiz\u00F3."
+   },
+   "updateCompleted": {
+      "message": "Actualizaci\u00F3n completa."
+   }
+}

@@ -1,0 +1,273 @@
+{
+   "apps_promo_counter": 11,
+   "browser": {
+      "clear_data": {
+         "form_data": true,
+         "passwords": true,
+         "time_period": 4
+      },
+      "window_placement": {
+         "always_on_top": false,
+         "bottom": 900,
+         "left": 22,
+         "maximized": false,
+         "right": 947,
+         "top": 22,
+         "work_area_bottom": 1200,
+         "work_area_left": 0,
+         "work_area_right": 1916,
+         "work_area_top": 22
+      },
+      "window_placement_www": {
+         "hipchat": {
+            "com_/chat": {
+               "always_on_top": false,
+               "bottom": 1178,
+               "left": 22,
+               "maximized": false,
+               "right": 947,
+               "top": 44,
+               "work_area_bottom": 1200,
+               "work_area_left": 0,
+               "work_area_right": 1916,
+               "work_area_top": 22
+            }
+         }
+      }
+   },
+   "cloud_print": {
+      "email": ""
+   },
+   "countryid_at_install": 21843,
+   "default_apps_installed": true,
+   "default_search_provider": {
+      "enabled": true,
+      "encodings": "UTF-8",
+      "icon_url": "http://www.google.com/favicon.ico",
+      "id": "2",
+      "instant_url": "{google:baseURL}webhp?{google:RLZ}sourceid=chrome-instant&ie={inputEncoding}&ion=1{searchTerms}&nord=1",
+      "keyword": "google.com",
+      "name": "Google",
+      "prepopulate_id": "1",
+      "search_url": "{google:baseURL}search?{google:RLZ}{google:acceptedSuggestion}{google:originalQueryForSuggestion}sourceid=chrome&ie={inputEncoding}&q={searchTerms}",
+      "suggest_url": "{google:baseSuggestURL}search?client=chrome&hl={language}&q={searchTerms}"
+   },
+   "devtools": {
+      "split_location": 400
+   },
+   "dns_prefetching": {
+      "host_referral_list": [ 2, [ "https://www.hipchat.com/", [ "https://www.hipchat.com/", 0.51 ] ] ],
+      "startup_list": [ 1, "https://www.hipchat.com/" ]
+   },
+   "download": {
+      "directory_upgrade": true,
+      "extensions_to_open": ""
+   },
+   "extensions": {
+      "autoupdate": {
+         "last_check": "12948959293984406",
+         "next_check": "12948975882815693"
+      },
+      "blacklistupdate": {
+         "lastpingday": "12948879600420904",
+         "version": "0.0.0.5"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      },
+      "settings": {
+         "fjnbnpbmkenffdnngjfgmeleoegfcffe": {
+            "app_launcher_index": 2,
+            "granted_permissions": {
+               "api": [ "tabs" ],
+               "full": false,
+               "host": [ "http://*/*", "http://userstyles.local/*", "http://userstyles.org/*", "https://*/*" ]
+            },
+            "incognito": false,
+            "install_time": "12948324143889405",
+            "lastpingday": "12948879600447529",
+            "location": 1,
+            "manifest": {
+               "background_page": "background.html",
+               "browser_action": {
+                  "default_icon": "19.png",
+                  "default_popup": "popup.html",
+                  "default_title": "Stylish"
+               },
+               "content_scripts": [ {
+                  "all_frames": true,
+                  "js": [ "apply.js" ],
+                  "matches": [ "http://*/*", "https://*/*" ],
+                  "run_at": "document_start"
+               }, {
+                  "all_frames": false,
+                  "js": [ "install.js" ],
+                  "matches": [ "http://userstyles.org/*", "http://userstyles.local/*" ],
+                  "run_at": "document_end"
+               } ],
+               "current_locale": "en_US",
+               "default_locale": "en",
+               "description": "Restyle the web with Stylish, a user styles manager.",
+               "icons": {
+                  "16": "16.png",
+                  "48": "48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr3yiiN7TIDoaEvh7W34g5YsxfUIGkvVUylq9bm29v8EzULCNIpi74KOBrvprYB6/YAdLjvYmGya1CJfgkuQy3/rZ7gGLSrDk9B1qgsHurhNaCJ0ogfSR50bfYUp0qJlIAgBgZWrVWLogfXbU8x+LFgV8pdMjFuWJgzketxjP6nwIDAQAB",
+               "name": "Stylish",
+               "options_page": "manage.html",
+               "permissions": [ "tabs", "http://userstyles.org/" ],
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "0.7"
+            },
+            "path": "fjnbnpbmkenffdnngjfgmeleoegfcffe/0.7_0",
+            "state": 1
+         },
+         "ghdolceebipkdmjihgfiaiapkgpcihgb": {
+            "app_launcher_index": 11,
+            "granted_permissions": {
+               "full": false,
+               "host": [ "http://*/*", "https://*/*" ]
+            },
+            "incognito": false,
+            "install_time": "12948934667918141",
+            "location": 1,
+            "manifest": {
+               "content_scripts": [ {
+                  "js": [ "script.js" ],
+                  "matches": [ "https://www.hipchat.com/chat" ]
+               } ],
+               "converted_from_user_script": true,
+               "description": "",
+               "key": "2IOeYOMqtppkfD6mnAO7MgUY0DidsI5TyBy2DEAtdzI=",
+               "name": "hipchat.user.js",
+               "version": "1.0"
+            },
+            "path": "ghdolceebipkdmjihgfiaiapkgpcihgb/1.0_8",
+            "state": 1
+         },
+         "hpibmhghjndideebpackbdlpncgkcppp": {
+            "blacklist": true,
+            "install_time": "12947626846294183"
+         },
+         "lncjcfkpannmofmpgdfoonkniofdnaba": {
+            "blacklist": true,
+            "install_time": "12947626846294204"
+         }
+      },
+      "toolbar": [ "fjnbnpbmkenffdnngjfgmeleoegfcffe" ],
+      "ui": {
+         "developer_mode": false
+      }
+   },
+   "google": {
+      "services": {
+         "username": ""
+      }
+   },
+   "homepage": "http://www.google.com/",
+   "homepage_is_newtabpage": false,
+   "ntp": {
+      "pref_version": 3,
+      "promo_build": 2,
+      "promo_closed": false,
+      "promo_end": 1299830340.0,
+      "promo_group": 14,
+      "promo_group_timeslice": 0,
+      "promo_line": "Use Chrome on another computer? Take your bookmarks and more with you.",
+      "promo_resource_cache_update": "1304456875.360753",
+      "promo_start": 1299830280.0,
+      "shown_sections": 1,
+      "web_resource_cache_update": "1304026548.652573"
+   },
+   "plugins": {
+      "enabled_internal_pdf3": true,
+      "last_internal_directory": "/Applications/Google Chrome.app/Contents/Versions/11.0.696.57/Google Chrome Framework.framework/Internet Plug-Ins",
+      "plugins_list": [ {
+         "enabled": true,
+         "name": "Shockwave Flash",
+         "path": "/Applications/Google Chrome.app/Contents/Versions/11.0.696.57/Google Chrome Framework.framework/Internet Plug-Ins/Flash Player Plugin for Chrome.plugin",
+         "version": "10.2.154.25"
+      }, {
+         "enabled": true,
+         "name": "QuickTime Plug-in 7.6.6",
+         "path": "/Library/Internet Plug-Ins/QuickTime Plugin.plugin",
+         "version": "7.6.6"
+      }, {
+         "enabled": true,
+         "name": "Java Plug-In 2 for NPAPI Browsers",
+         "path": "/Library/Internet Plug-Ins/JavaPlugin2_NPAPI.plugin",
+         "version": "13.4.0"
+      }, {
+         "enabled": true,
+         "name": "Chrome PDF Viewer",
+         "path": "/Applications/Google Chrome.app/Contents/Versions/11.0.696.57/Google Chrome Framework.framework/Internet Plug-Ins/PDF.plugin",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "Google Talk NPAPI Plugin",
+         "path": "/Library/Internet Plug-Ins/googletalkbrowserplugin.plugin",
+         "version": "1.9.2.1599"
+      }, {
+         "enabled": true,
+         "name": "iPhotoPhotocast",
+         "path": "/Library/Internet Plug-Ins/iPhotoPhotocast.plugin",
+         "version": "7.0"
+      }, {
+         "enabled": true,
+         "name": "Google Talk Plugin Video Accelerator",
+         "path": "/Library/Internet Plug-Ins/npgtpo3dautoplugin.plugin",
+         "version": "0.1.43.4"
+      }, {
+         "enabled": true,
+         "name": "SharePoint Browser Plug-in",
+         "path": "/Library/Internet Plug-Ins/SharePointBrowserPlugin.plugin",
+         "version": "14.0.2"
+      }, {
+         "enabled": true,
+         "name": "Default Plug-in",
+         "path": "default_plugin",
+         "version": "1"
+      }, {
+         "enabled": true,
+         "name": "Flash"
+      }, {
+         "enabled": true,
+         "name": "Quicktime"
+      }, {
+         "enabled": true,
+         "name": "Java"
+      }, {
+         "enabled": true,
+         "name": "Chrome PDF Viewer"
+      }, {
+         "enabled": true,
+         "name": "Google Talk NPAPI Plugin"
+      }, {
+         "enabled": true,
+         "name": "iPhotoPhotocast"
+      }, {
+         "enabled": true,
+         "name": "Google Talk Plugin Video Accelerator"
+      }, {
+         "enabled": true,
+         "name": "SharePoint Browser Plug-in"
+      }, {
+         "enabled": true,
+         "name": "Default Plug-in"
+      } ]
+   },
+   "profile": {
+      "content_settings": {
+         "pref_version": 1
+      },
+      "exited_cleanly": true,
+      "multiple_profile_prefs_version": 1,
+      "per_host_zoom_levels": {
+         "fjnbnpbmkenffdnngjfgmeleoegfcffe": -2.0,
+         "groups.google.com": 2.0
+      }
+   },
+   "tabs": {
+      "use_vertical_tabs": false
+   }
+}
